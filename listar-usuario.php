@@ -1,6 +1,6 @@
 <h1> Listar Usuários </h1>
 <?php 
-	$Mysql = "SELECT * FROM usuarios";
+	$Mysql = "SELECT * FROM livros";
 	$res = $conn->query($Mysql);
 	$qtd = $res->num_rows;
 	

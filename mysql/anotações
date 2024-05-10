@@ -1,0 +1,43 @@
+C reate
+r ead
+u pdat
+d elete
+
+apache + mysql + php 
+
+video que peguei
+https://www.youtube.com/watch?v=BSqtIw_hW8M&ab_channel=ProfessorEliel
+
+12:20 - chamar o php nao diretamente mas fazer com que eles passem pela home e sejam integrados assim
+
+ascento agudo em listar-usuário buga tudo
+
+26:40 do video, meu banco de dados se perdeu, nao consigo criar usuario pela interface     
+        
+        Organizando as ideias
+servidor web Apache (xamp) + MyQsl + PHP
+sudo apt-get install mysql-server mysql-client
+sudo apt-get install phpmyadmin > Apache
+
+se der erros ao abrir phpmyadmin no navegador:
+sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf
+
+sudo a2enconf phpmyadmin.conf
+
+sudo service apache2 reload
+
+oq é foreign key ? deixar para usar para muitos ?
+
+127.0.0.1/phpmyadmin
+
+php mailer
+
+php -S localhost:8001 para iniciar o php
+
+user@hackton03:~/Área de Trabalho$ mv hackathon /var/www/html
+
+outros locais --> linux
+
+
+git config --global user.email 
+git config --global user.name "Your Name"
